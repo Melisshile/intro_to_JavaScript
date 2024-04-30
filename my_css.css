@@ -1,0 +1,421 @@
+* {/*setting all to fall under sedan font*/
+    font-family: "Sedan", serif; 
+    font-size: 20px;
+    box-sizing: border-box;
+}
+body {/*setting the background color of the body*/
+    background-color: whitesmoke;
+}
+.navClass {/*putting color & ajustment on the navigation bar*/
+    background-color: blanchedalmond;
+    padding-right: auto; 
+    padding-left: auto;
+    margin: 0%;
+}
+.mainDiv {
+    display: flex;/*putting my div & ul on the same line horizontally*/ 
+    align-items: center; /*centering*/
+    justify-content: space-between;/*create space*/
+}
+.logo {/*color style*/
+    font-size: 25px; 
+    font-weight: 600px;
+    color:darkorange;
+}
+.ulClass { 
+    list-style: none; /*removing the dots of ul*/
+    font-size:10px; 
+    font-weight: bold; 
+    margin-right:0;
+}
+.vidcol {/*putting a color behind the video*/
+    overflow: hidden;
+    background-color: rgba(255, 99, 71, 0.5);
+}
+video{/*ajusting the video size*/
+    width: 100%;
+    height: 300px;
+}
+body{/*calling the animation of color of my body*/
+    animation: mymove 5s linear infinite;
+}
+@keyframes mymove { /*setting how color will be exchanging*/
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: brown;
+    }
+}
+.addr {
+    text-align: center;
+}
+.my_form {
+    text-align: center;
+}
+#idli {
+    display: inline-block;/*putting list items on same line*/
+    padding-right: 30px;
+}
+#tdid {
+    width : 150px; 
+    height: 150px; 
+    border-radius: 50%; /*creation of the circle*/
+    overflow: hidden;
+}
+#imgid {
+    width :100%; 
+    height:auto; 
+    display:block;
+}
+#pushimg {
+    padding-left: 400px;
+}
+.tcontent {
+    tab-size: auto;
+}
+.address {
+    font-size : 30px;
+    margin: auto;
+}
+#addressspace {
+    padding-left: 15px;
+    padding-right: 350px;
+}
+#tdlink {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#resizelinks {
+    font-size : 50px;     
+}
+.footerpage {/*calling the animation of the colors on the footer*/
+    background-color: blanchedalmond;
+    margin: 0%;
+    animation: footmove 5s linear infinite;
+}
+@keyframes footmove {/*setting the exchange of colors on the footer*/
+    from{
+        background-color: whitesmoke;
+    }
+    to{
+        background-color: lightseagreen;
+    }
+}
+#name_surnam_span {
+    color: red;
+}
+#email_span {
+    color: red;
+}
+#message_span {
+    color: red;
+}
+.hid {
+    display: none;
+}
+/*for small devives*/
+@media only screen and(max-width:600px) {
+    * {/*setting all to fall under sedan font*/
+        font-family: "Sedan", serif; 
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+    body {/*setting the background color of the body*/
+        background-color: whitesmoke;
+    }
+    .navClass {/*putting color & ajustment on the navigation bar*/
+        background-color: blanchedalmond;
+        padding-right: auto; 
+        padding-left: auto;
+        margin: 0%;
+    }
+    .mainDiv {
+        display: flex;/*putting my div & ul on the same line horizontally*/ 
+        align-items: center; /*centering*/
+        justify-content: space-between;/*create space*/
+    }
+    .logo {/*color style*/
+        font-size: 25px; 
+        font-weight: 600px;
+        color:darkorange;
+    }
+    .ulClass { 
+        list-style: none; /*removing the dots of ul*/
+        font-size:10px; 
+        font-weight: bold; 
+        margin-right:0;
+    }
+    .vidcol {/*putting a color behind the video*/
+        overflow: hidden;
+        background-color: rgba(255, 99, 71, 0.5);
+    }
+    video{/*ajusting the video size*/
+        width: 100%;
+        height: 300px;
+    }
+    body{/*calling the animation of color of my body*/
+        animation: mymove 5s linear infinite;
+    }
+    @keyframes mymove { /*setting how color will be exchanging*/
+        from{
+            background-color: blueviolet;
+        }
+        to{
+            background-color: brown;
+        }
+    }
+    #idli {
+        display: inline-block;/*putting list items on same line*/
+        padding-right: 30px;
+    }
+    #tdid {
+        width : 150px; 
+        height: 150px; 
+        border-radius: 50%; /*creation of the circle*/
+        overflow: hidden;
+    }
+    #imgid {
+        width :100%; 
+        height:auto; 
+        display:block;
+    }
+    #pushimg {
+        padding-left: 400px;
+    }
+    .tcontent {
+        tab-size: auto;
+    }
+    .address {
+        font-size : 30px;
+        margin: auto;
+    }
+    #addressspace {
+        padding-left: 15px;
+        padding-right: 350px;
+    }
+    #tdlink {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #resizelinks {
+        font-size : 50px;     
+    }
+    .footerpage {/*calling the animation of the colors on the footer*/
+        background-color: blanchedalmond;
+        margin: 0%;
+        animation: footmove 5s linear infinite;
+    }
+    @keyframes footmove {/*setting the exchange of colors on the footer*/
+        from{
+            background-color: whitesmoke;
+        }
+        to{
+            background-color: lightseagreen;
+        }
+    }    
+}
+/*for madium devices*/
+@media only screen and (min-width:601px) and (max-width:1024px) {
+    * {/*setting all to fall under sedan font*/
+        font-family: "Sedan", serif; 
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+    body {/*setting the background color of the body*/
+        background-color: whitesmoke;
+    }
+    .navClass {/*putting color & ajustment on the navigation bar*/
+        background-color: blanchedalmond;
+        padding-right: auto; 
+        padding-left: auto;
+        margin: 0%;
+    }
+    .mainDiv {
+        display: flex;/*putting my div & ul on the same line horizontally*/ 
+        align-items: center; /*centering*/
+        justify-content: space-between;/*create space*/
+    }
+    .logo {/*color style*/
+        font-size: 25px; 
+        font-weight: 600px;
+        color:darkorange;
+    }
+    .ulClass { 
+        list-style: none; /*removing the dots of ul*/
+        font-size:10px; 
+        font-weight: bold; 
+        margin-right:0;
+    }
+    .vidcol {/*putting a color behind the video*/
+        overflow: hidden;
+        background-color: rgba(255, 99, 71, 0.5);
+    }
+    video{/*ajusting the video size*/
+        width: 100%;
+        height: 300px;
+    }
+    body{/*calling the animation of color of my body*/
+        animation: mymove 5s linear infinite;
+    }
+    @keyframes mymove { /*setting how color will be exchanging*/
+        from{
+            background-color: blueviolet;
+        }
+        to{
+            background-color: brown;
+        }
+    }
+    #idli {
+        display: inline-block;/*putting list items on same line*/
+        padding-right: 30px;
+    }
+    #tdid {
+        width : 150px; 
+        height: 150px; 
+        border-radius: 50%; /*creation of the circle*/
+        overflow: hidden;
+    }
+    #imgid {
+        width :100%; 
+        height:auto; 
+        display:block;
+    }
+    #pushimg {
+        padding-left: 400px;
+    }
+    .tcontent {
+        tab-size: auto;
+    }
+    .address {
+        font-size : 30px;
+        margin: auto;
+    }
+    #addressspace {
+        padding-left: 15px;
+        padding-right: 350px;
+    }
+    #tdlink {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #resizelinks {
+        font-size : 50px;     
+    }
+    .footerpage {/*calling the animation of the colors on the footer*/
+        background-color: blanchedalmond;
+        margin: 0%;
+        animation: footmove 5s linear infinite;
+    }
+    @keyframes footmove {/*setting the exchange of colors on the footer*/
+        from{
+            background-color: whitesmoke;
+        }
+        to{
+            background-color: lightseagreen;
+        }
+    }
+    
+}
+/*for large devices*/
+@media only screen and (min-width:1026px){
+    * {/*setting all to fall under sedan font*/
+        font-family: "Sedan", serif; 
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+    body {/*setting the background color of the body*/
+        background-color: whitesmoke;
+    }
+    .navClass {/*putting color & ajustment on the navigation bar*/
+        background-color: blanchedalmond;
+        padding-right: auto; 
+        padding-left: auto;
+        margin: 0%;
+    }
+    .mainDiv {
+        display: flex;/*putting my div & ul on the same line horizontally*/ 
+        align-items: center; /*centering*/
+        justify-content: space-between;/*create space*/
+    }
+    .logo {/*color style*/
+        font-size: 25px; 
+        font-weight: 600px;
+        color:darkorange;
+    }
+    .ulClass { 
+        list-style: none; /*removing the dots of ul*/
+        font-size:10px; 
+        font-weight: bold; 
+        margin-right:0;
+    }
+    .vidcol {/*putting a color behind the video*/
+        overflow: hidden;
+        background-color: rgba(255, 99, 71, 0.5);
+    }
+    video{/*ajusting the video size*/
+        width: 100%;
+        height: 300px;
+    }
+    body{/*calling the animation of color of my body*/
+        animation: mymove 5s linear infinite;
+    }
+    @keyframes mymove { /*setting how color will be exchanging*/
+        from{
+            background-color: blueviolet;
+        }
+        to{
+            background-color: brown;
+        }
+    }
+    #idli {
+        display: inline-block;/*putting list items on same line*/
+        padding-right: 30px;
+    }
+    #tdid {
+        width : 150px; 
+        height: 150px; 
+        border-radius: 50%; /*creation of the circle*/
+        overflow: hidden;
+    }
+    #imgid {
+        width :100%; 
+        height:auto; 
+        display:block;
+    }
+    #pushimg {
+        padding-left: 400px;
+    }
+    .tcontent {
+        tab-size: auto;
+    }
+    .address {
+        font-size : 30px;
+        margin: auto;
+    }
+    #addressspace {
+        padding-left: 15px;
+        padding-right: 350px;
+    }
+    #tdlink {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #resizelinks {
+        font-size : 50px;     
+    }
+    .footerpage {/*calling the animation of the colors on the footer*/
+        background-color: blanchedalmond;
+        margin: 0%;
+        animation: footmove 5s linear infinite;
+    }
+    @keyframes footmove {/*setting the exchange of colors on the footer*/
+        from{
+            background-color: whitesmoke;
+        }
+        to{
+            background-color: lightseagreen;
+        }
+    }
+        
+}

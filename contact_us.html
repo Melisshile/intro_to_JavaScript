@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="my_css.css">
+    
+    <!--link for the font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./my_media/favicon.ico">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav class = "navClass">
+        <div class = "mainDiv">
+            <div class = "logo">
+                <a href="#">RheaHile</a>
+            </div>
+            <ul class = "ulclass">
+                <li id = "idli">
+                    <a href="myport.html">Home</a>
+                </li>
+                <li id = "idli">
+                    <a href="about_us.html">About Us</a>
+                </li>
+                <li id = "idli">
+                    <a href="contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="addr">
+        <h1>Hialire Ntibashima</h1>
+        <p>Pretoria Gauteng<br>2561 Block L Soshanguve 0152 <br>0655865443 | hilairentibashima@gmail.com</p>
+    </div><br>
+    <form class="my_form" onsubmit="submissionOfForm(event)">
+        <label>
+            Your name & surname:
+            <input id="name_surnam" type="text" name="name_surnam" placeholder="Name and Surname..."><br>
+            <span class="hid" id="name_surnam_span">Fill in your name!</span>
+        </label><br><br>
+        <label>
+            Your email:
+            <input id="email" type="email" name="email" placeholder="*********@gmail.com"><br>
+            <span class="hid" id="email_span">Email is invalid!</span>
+        </label><br><br>
+        <label>
+            Your message:
+            <textarea id="message" name="message" placeholder="message..."></textarea><br>
+            <span class="hid" id="message_span">Message is invalid!</span>
+        </label><br>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+    </form>
+    
+        <ul>
+            <li>YouTube channel : <a href="https://youtube.com/@RheaHile?si=pONPEmvLSLWP4Mv1"><i>Rhea Hile</i></a></li><br>
+            <li>LinkedIn :<a href="https://www.linkedin.com/in/ntibashima-hilaire-4a8705251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i>ntibashima hilaire</i></a> </li><br>
+        </ul>
+        
+        
+        <br>
+    <footer class="footerpage">
+        <table>
+            <tr>
+                <td id="tdlink">
+                    <a href="unavailable.html"  ><i class="fa-brands fa-twitter" id="resizelinks" ></i></a>
+                </td>
+                <td id="tdlink">
+                    <a href="https://www.facebook.com/profile.php?id=100077079056091&name=xhp_nt__fb__action__open_user"> <i class="fa-brands fa-facebook-f" id="resizelinks"></i></a>
+                </td>
+                <td id="tdlink">
+                    <a href="https://www.instagram.com/hil.nti/"><i class="fa-brands fa-square-instagram" id="resizelinks"></i>  </a> 
+                </td>
+            </tr>
+        </table>
+    </footer>
+    <!--my javaScripts file-->
+    <script src="contact_us.js"></script>
+</body>
+</html>
