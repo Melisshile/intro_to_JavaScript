@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--link for my css file-->
     <link rel="stylesheet" href="my_css.css">
-    
+    <link rel="stylesheet" href="about_us.css">
     <!--link for the font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,67 +17,66 @@
 </head>
 <!--begining of my body-->
 <body>
-    <!--my navigation bar-->
+    <!--navigation bar-->
     <nav class = "navClass">
         <div class = "mainDiv">
-            <div class = "logo">
-                <a href="#">RheaHile</a>
-            </div>
-            <ul class = "ulclass">
-                <li id = "idli">
-                    <a href="myport.html">Home</a>
-                </li>
-                <li id = "idli">
-                    <a href="about_us.html">About Us</a>
-                </li>
-                <li id = "idli">
-                    <a href="contact_us.html">Contact Us</a>
-                </li>
-            </ul>
+            <div class = "logo" id="myLogo"></div>
+                <div class="hacclass">
+                    <div id="homeid">
+                        <a href="myport.html" id="tdeco"><p id="homeH"></p></a>
+                    </div>
+                        <div id="about_usid">
+                            <a href="#" id="tdeco"><p id="about"></p></a>
+                        </div>
+                            <div id="contact_usid">
+                                <a href="contact_us.html" id="tdeco"><p id="cont"></p></a>
+                            </div>
+                </div>
         </div>
-    </nav><!--end of my navigation bar-->
+    </nav><!--end of navigation bar-->
+     <br>
+    <h1 id="aboutc"></h1>
     <br>
     <div class="addr">
-        <h1 id="full_name"></h1>
-        <p id="full_address"> </p><p><b id="full_address_"></b></p>
+        <h1 id="fullName"></h1>
+        <p id="full_address"></p> <b id="full_address_"></b></p>
     </div>
     <hr>
-    <div>
-        <p id="pbg"><b><big id="pbg_"></big></b></p>
+    <div class="personaldetails">
+        <p ><b><big id="pbg"></big></b></p>
         <ul>
-            <li>Date of Bith : 09 November 1995</li>
-            <li>Nationaly : Burundian</li>
-            <li>Gender : Male</li>
+            <li><p id="birth"></p></li>
+            <li><p id="nationality"></p></li>
+            <li><p id="gender"></p></li>
         </ul><hr>
         <p ><b><big id="obj"></big></b></p>
         <p id="objective"></p>
         <hr>
         <p ><b><big id="ed"></big></b></p>
         <ul>
-            <li><b id="education"></b><br><b id="education_"></b></li>
-            <li><b id="education__"></b><br>Matric </li>
+            <li><b id="education"></b><p id="education_"></p></li>
+            <li><b id="education__"></b></li>
         </ul>
         <hr>
         <p ><b><big id="sk"></big></b></p>
         <ul>
-            <li>
-                Decision making
-            </li>
-            <li>Team Work</li>
-            <li>Communication Skills</li>
-            <li>Photoshop</li>
-            <li>CorelDraw</li>
-            <li>Programming Skills (C++, Assembly, SQL, LLD for PLCs)</li>
-            <li>Electronic Circuits</li>
-            <li>Digital Eletronics</li>
+            <li><p id="decision"></p></li>
+            <li><p id="teamW"></p></li>
+            <li><p id="commSkills"></p></li>
+            <li><p id="Photoshop"></p></li>
+            <li><p id="CorelDraw"></p></li>
+            <li><p id="programSkills"></p></li>
+            <li><p id="electroCircuit"></p></li>
+            <li><p id="digit"></p></li>
+            <li><p id="frontEnd"></p></li>
         </ul><hr>
         <p ><b><big id="ac"></big></b></p>
         <ul>
-            <li>TUT Ambassadors</li>
+            <li><p id="ambassador"></p></li>
         </ul><hr>
-        <p ><b><big id="pr"> </big></b></p>
+        <p ><b><big id="pr"></big></b></p>
         <ul>
-            <li><a href="https://github.com/Melisshile/Bank_system.git"><b>Banking System</b></a><br>Using C++ Builder</li>
+            <li><a href="https://github.com/Melisshile/Bank_system.git"><b id="bankSys"></b></a><p id="toolUsed"></p></li>
         </ul>
     </div>
     <br>
@@ -97,8 +96,6 @@
             </tr>
         </table>
         </footer>
-        <!--my javaScripts file-->
-        <script src="about_us.js"></script>
-        
+       <script src="about_us.js"></script> 
 </body>
 </html>

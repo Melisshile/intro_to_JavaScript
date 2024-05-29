@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="my_css.css">
-    
+    <link rel="stylesheet" href="contact_us.css">
     <!--link for the font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,56 +13,54 @@
     <title>Contact Us</title>
 </head>
 <body>
+    <!--navigation bar-->
     <nav class = "navClass">
         <div class = "mainDiv">
-            <div class = "logo">
-                <a href="#">RheaHile</a>
-            </div>
-            <ul class = "ulclass">
-                <li id = "idli">
-                    <a href="myport.html">Home</a>
-                </li>
-                <li id = "idli">
-                    <a href="about_us.html">About Us</a>
-                </li>
-                <li id = "idli">
-                    <a href="contact_us.html">Contact Us</a>
-                </li>
-            </ul>
+            <div class = "logo" id="myLogo"></div>
+                <div class="hacclass">
+                    <div id="homeid">
+                        <a href="myport.html" id="tdeco"><p id="homeH"></p></a>
+                    </div>
+                        <div id="about_usid">
+                            <a href="about_us.html" id="tdeco"><p id="about"></p></a>
+                        </div>
+                            <div id="contact_usid">
+                                <a href="#" id="tdeco"><p id="cont"></p></a>
+                            </div>
+                </div>
         </div>
-    </nav>
-    <br>
+    </nav><!--end of navigation bar-->
+     <br>
+    <h1 id="mycontactc"></h1>
     <div class="addr">
-        <h1>Hialire Ntibashima</h1>
-        <p>Pretoria Gauteng<br>2561 Block L Soshanguve 0152 <br>0655865443 | hilairentibashima@gmail.com</p>
+        <h1 id="fullName"></h1>
+        <p id="city"></p><p id="suburb"></p><p id="numberPhone"></p>
     </div><br>
-    <form class="my_form" onsubmit="submissionOfForm(event)">
-        <label>
-            Your name & surname:
-            <input id="name_surnam" type="text" name="name_surnam" placeholder="Name and Surname..."><br>
-            <span class="hid" id="name_surnam_span">Fill in your name!</span>
-        </label><br><br>
-        <label>
-            Your email:
-            <input id="email" type="email" name="email" placeholder="*********@gmail.com"><br>
-            <span class="hid" id="email_span">Email is invalid!</span>
-        </label><br><br>
-        <label>
-            Your message:
-            <textarea id="message" name="message" placeholder="message..."></textarea><br>
-            <span class="hid" id="message_span">Message is invalid!</span>
-        </label><br>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
+    <form id="myFormt" onsubmit="submissionOfForm(event)">
+        <label for="namesur" id="userFullName"></label>
+        <input type="text" id="namesur" name="namesur" placeholder="Name&Surname">
+        <br><span id="hid"></span>
+        <br><br>
+        <label for="email" id="userEmail"></label>
+        <input type="email" id="email" name="email" placeholder="email@gmail.com">
+        <br><span id="hidEmail"></span>
+        <br><br>
+        <label for="message" id="msg"></label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..."></textarea>
+        <input type="submit">
+        <br><span id="hidmsg"></span>
+        <br><p id="submission_msg"></p>
     </form>
-    
+    <ul>
+        <li><i id="myEmail"></i></li><br>
         <ul>
-            <li>YouTube channel : <a href="https://youtube.com/@RheaHile?si=pONPEmvLSLWP4Mv1"><i>Rhea Hile</i></a></li><br>
-            <li>LinkedIn :<a href="https://www.linkedin.com/in/ntibashima-hilaire-4a8705251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i>ntibashima hilaire</i></a> </li><br>
+            <li ><p id="youTubeH"></p><a href="https://youtube.com/@RheaHile?si=pONPEmvLSLWP4Mv1"><i id="youTubeName"></i></a></li><br>
+            <li><p id="linkedInH"></p><a href="https://www.linkedin.com/in/ntibashima-hilaire-4a8705251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " id="linkedInHName"></a> </li><br>
         </ul>
+        <li><i><p id="cell"></p><b id="number"></b></i></li><br>
+        <li><i><p id="wNumber"></p><b id="numbers"></b></i></li>
         
-        
-        <br>
+    </ul><br>
     <footer class="footerpage">
         <table>
             <tr>
@@ -78,7 +76,6 @@
             </tr>
         </table>
     </footer>
-    <!--my javaScripts file-->
     <script src="contact_us.js"></script>
 </body>
 </html>

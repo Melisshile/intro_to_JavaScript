@@ -1,0 +1,24 @@
+#mycontactc{
+    color: brown;
+}
+#mycontactc{
+    text-align: center;
+}
+.addr{
+    text-align: center;
+}
+#myFormt{
+    text-align: center;
+}
+#hid{
+    color: red;
+    display: none;
+}
+#hidEmail{
+    color: red;
+    display: none;
+}
+#hidmsg{
+    color: red;
+    display: none;
+}
